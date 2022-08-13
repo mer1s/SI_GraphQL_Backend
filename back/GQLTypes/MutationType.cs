@@ -26,7 +26,7 @@ namespace back.GQLTypes
 
             context.Products.Remove(toDelete);
             await context.SaveChangesAsync();
-            return "Deleted.";
+            return "Successfuly deleted product.";
         }
     }
 }
